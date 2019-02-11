@@ -34,7 +34,7 @@ class Counter extends React.Component {
           
         </div>
         <h1> Fizz, Buzz, FizzBuzz, or n</h1>
-        <span>{this.renderFB()}</span>
+        <span>Result: {this.renderFB()}</span>
       </div>
     )
   }
